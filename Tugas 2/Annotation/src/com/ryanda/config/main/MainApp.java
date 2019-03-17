@@ -14,11 +14,11 @@ public class MainApp {
 		ClassPathXmlApplicationContext
 			context = new ClassPathXmlApplicationContext("ProfileAnnotation.xml"); 
 		
-
-		System.out.println("List Dosen dan Mahasiswa");
+		System.out.println("Annotation");
+		System.out.println("Profile Login");
 		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 		
-		System.out.println("Pilih 1 untuk list mahasiswa \nPilih 2 untuk list dosen");
+		System.out.println("Pilih 1 untuk Dosen \nPilih 2 untuk Mahasiswa");
 		int choice = myObj.nextInt();  // Read user input
 		
 		
@@ -33,6 +33,9 @@ public class MainApp {
 			Mahasiswa inimahasiswa = (Mahasiswa) profil2;
 			System.out.println("Tipe Profile: "+inimahasiswa.getProfileName());
 			System.out.println(inimahasiswa.toString());
+		}
+		else {
+			System.out.println("Input Salah");
 		}
 		
 		

@@ -8,7 +8,7 @@ import org.springframework.core.io.Resource;
 import java.util.Scanner;
 public class MainApp {
 	public static void main (String[] args) {
-
+		System.out.println("XML");
 		System.out.println("List Dosen dan Mahasiswa");
 		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 		
