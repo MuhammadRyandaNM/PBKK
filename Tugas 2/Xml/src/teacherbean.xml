@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="t1" class="com.ryanda.model.Teacher">   
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="id" value="1"></property>
+        <property name="name" value="Prof.Moriarty"></property>
+        <property name="mk" value="Kalkulus 1"></property>
+        <property name="alamat" value="Keputih"></property>
+        <property name="jkelamin" value="M"></property>
+        <property name="nilai" value="3.0"></property>
+    </bean>
+    
+    <bean id="t2" class="com.ryanda.model.Teacher">   
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="id" value="2"></property>
+        <property name="name" value="Dr.Eng.Hendri"></property>
+        <property name="mk" value="Fisdas"></property>
+        <property name="alamat" value="Sidoarjo"></property>
+        <property name="jkelamin" value="M"></property>
+        <property name="nilai" value="4.0"></property>
+    </bean>
+    
+    <bean id="t3" class="com.ryanda.model.Teacher">   
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="id" value="3"></property>
+        <property name="name" value="Prof.Rina"></property>
+        <property name="mk" value="Kalkulus 2"></property>
+        <property name="alamat" value="Klampis"></property>
+        <property name="jkelamin" value="F"></property>
+        <property name="nilai" value="3.4"></property>
+    </bean>
+    
+    <bean id="t4" class="com.ryanda.model.Teacher">   
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="id" value="4"></property>
+        <property name="name" value="Dr.Budi"></property>
+        <property name="mk" value="Fisdas 2"></property>
+        <property name="alamat" value="Keputih"></property>
+        <property name="jkelamin" value="M"></property>
+        <property name="nilai" value="3.3"></property>
+    </bean>
+    
+    <bean id="t5" class="com.ryanda.model.Teacher">   
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="id" value="5"></property>
+        <property name="name" value="Prof.Nia"></property>
+        <property name="mk" value="Kimia"></property>
+        <property name="alamat" value="Keputih"></property>
+        <property name="jkelamin" value="F"></property>
+        <property name="nilai" value="3.7"></property>
+    </bean>
+    
+    
+   
+
+    <bean id="..." class="...">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!-- more bean definitions go here -->
+
+</beans>
