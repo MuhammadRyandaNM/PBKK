@@ -1,7 +1,8 @@
 package com.ryanda.config.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.ryanda.profile.*;
+import com.ryanda.profile.Profiles;
+import com.ryanda.profile.Dosen;
 
 public class MainApp {
 
@@ -10,13 +11,9 @@ public class MainApp {
 			context = new ClassPathXmlApplicationContext("ProfileAnnotation.xml"); 
 		
 
-		Profiles profil1 =(Profiles) context.getBean("Dosen", Profiles.class);
-		Dosen inidosen = (Dosen) profil1;
+		Profiles profil1 = context.getBean("dosen", Profiles.class);
+		Dosen aramitama1 = (Dosen) profil1;
 		
-		
-		
-		System.out.println("Tipe Profile: "+inidosen.getProfileName());
-		System.out.println(inidosen.toString());
 		
 		context.close();
 	}
